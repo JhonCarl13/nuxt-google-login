@@ -1,9 +1,14 @@
 <!-- app.vue -->
 <template>
-  <NuxtPage />
+  <NuxtLayout>
+    <v-app>
+      <NuxtPage />
+    </v-app>
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
+//@ts-nocheck
 useHead({
   script: [
     {

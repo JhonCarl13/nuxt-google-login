@@ -22,6 +22,10 @@
 
 <script setup lang="ts">
 // @ts-nocheck
+definePageMeta({
+  layout: false
+})
+
 const config = useRuntimeConfig()
 
 declare global {
